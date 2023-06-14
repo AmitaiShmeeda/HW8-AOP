@@ -1,0 +1,166 @@
+# Ignore target directory
+target/
+
+# Keep Maven wrapper
+!.mvn/wrapper/maven-wrapper.jar
+
+# Exclude target directories under src/main and src/test
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+
+# Ignore IDEA module configuration
+.idea/modules.xml
+
+# Ignore IDEA jar repository configuration
+.idea/jarRepositories.xml
+
+# Ignore IDEA compiler configuration
+.idea/compiler.xml
+
+# Ignore IDEA libraries
+.idea/libraries/
+
+# Ignore IDEA workspace file
+*.iws
+
+# Ignore IDEA module file
+*.iml
+
+# Ignore IDEA project file
+*.ipr
+
+### Eclipse ###
+
+# Ignore generated APT files
+.apt_generated
+
+# Ignore Eclipse classpath file
+.classpath
+
+# Ignore Eclipse factorypath file
+.factorypath
+
+# Ignore Eclipse project file
+.project
+
+# Ignore Eclipse settings directory
+.settings
+
+# Ignore Spring Beans configuration
+.springBeans
+
+# Ignore STS4 cache directory
+.sts4-cache
+
+### NetBeans ###
+
+# Ignore NetBeans private directory
+/nbproject/private/
+
+# Ignore NetBeans build directory
+/nbbuild/
+
+# Ignore NetBeans distribution directory
+/dist/
+
+# Ignore NetBeans distributed project directory
+/nbdist/
+
+# Ignore NetBeans Gradle plugin directory
+/.nb-gradle/
+
+# Ignore build directory
+build/
+
+# Exclude build directories under src/main and src/test
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+
+# Ignore VS Code settings directory
+.vscode/
+
+### Mac OS ###
+
+# Ignore Mac OS .DS_Store files
+.DS_Store
+
+# Ignore IntelliJ IDEA specific directories
+.idea/
+
+# Ignore compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore Maven log directory
+log/
+
+# Ignore generated Maven files
+pom.xml.*
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Ignore Maven extensions directory
+.mvn/extensions.xml
+
+# Ignore Maven wrapper script (Linux/Unix)
+mvnw
+
+# Ignore Maven wrapper script (Windows)
+mvnw.cmd
+
+# Ignore Gradle properties file
+gradle.properties
+
+# Ignore Gradle wrapper
+.gradle/
+
+# Ignore compiled output directories
+/bin/
+/out/
+
+# Ignore IntelliJ IDEA project files
+/.idea/
+
+# Ignore IntelliJ IDEA module file
+/*.iml
+
+# Ignore Gradle build output directory
+/build/
+
+# Ignore Eclipse project settings directory
+.settings/
+
+# Ignore Eclipse compiled output directory
+bin/
+
+# Ignore Eclipse metadata directory
+.metadata/
+
+# Ignore NetBeans private directory
+nbproject/private/
+
+# Ignore NetBeans build directory
+nbbuild/
+
+# Ignore NetBeans distribution directory
+dist/
+
+# Ignore NetBeans distributed project directory
+nbdist/
+
+# Ignore NetBeans Ant build script
+nbactions.xml
+
+# Ignore NetBeans project configuration
+nb-configuration.xml
+
+# Ignore other generated files
+*.log
+*.swp
+*~
